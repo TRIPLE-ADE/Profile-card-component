@@ -22,14 +22,12 @@ The profile card component challenge on Frontend Mentor
 - Build out the project to the designs provided
 
 ### Screenshot
-
-![](./screenshot.jpg)
 ![Desktop-design](./design/desktop-design.jpg)
 ![Mobile-design](./design/mobile-design.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TRIPLE-ADE/Profile-card-component)
+- Live Site URL: [Add live site URL here](https://triple-ade.github.io/Profile-card-component/)
 
 ## My process
  - Algorithm : Process and ways of arranging and solving the problem
@@ -53,11 +51,6 @@ To see how you can add code snippets, see below:
 ```css
 .proud-of-this-css {
   color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
 }
 ```
 
