@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color:hsl(185, 75%, 39%);
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.top-bg{
+    position: absolute;
+    bottom:30%;
+    right:53%;
+    
+}
+.bottom-bg{
+    position: absolute;
+    top:48%;
+    left:50%;
+}
+.bg-image{
+    height: 130px;
+}
+.bg-image img{
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
+.content{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 130%;
+    position: relative;
+    z-index: 1000;
+}
+.profile-image{
+    position: absolute;
+    top:-50px;
+    left:120px;
+}
+.profile-image img{
+
+    border-radius:50%;
+    border: 5px solid #ffffff;
+}
+.main-content{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 150%;
+}
+.main-content p:first-child{
+    color:  hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.main-content p span {
+    font-weight: 400!Important;
+    color:hsl(227, 10%, 46%) ; 
+}
+.main-content p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(227, 10%, 46%); 
+}
+.line{
+    border-bottom: 0.5px solid hsl(0, 0%, 59%) ;
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.additional-info{
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.additional-info div p:first-child{
+    color:  hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.additional-info div p:nth-child(2){
+    color:hsl(227, 10%, 46%); 
+    font-weight: 400;
+    font-size: 14px;
+}
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a {
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+}
+@media (max-width:375px) {
+
+.bg-image{
+    width: 100%;
+    margin: auto;
+    height: 120px;
+}
+.bg-image img{
+    width:300px;
+}
+.bottom-bg{
+    position: absolute;
+    top:40%;
+    left:35%;
+}
+.content{
+    width: 300px;
+    height: 220px;
+}
+.profile-image{
+    top:-44px;
+    left:35%;
+    width: 30%;
+}
+.profile-image img{
+    width: 100%;
+}
+}
